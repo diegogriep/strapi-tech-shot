@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_heading_dumb_components",
+  "info": {
+    "displayName": "DumbComponent",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Repeatable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hero"
+    }
+  }
+}

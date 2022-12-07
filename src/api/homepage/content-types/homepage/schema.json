@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageComponents": {
+      "type": "dynamiczone",
+      "components": [
+        "page.hero",
+        "page.card",
+        "page.button"
+      ]
+    },
+    "PageTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "PageTitle"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    }
+  }
+}

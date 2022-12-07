@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_card_wrappers",
+  "info": {
+    "displayName": "CardWrapper",
+    "icon": "th-large"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

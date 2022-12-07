@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_new_cards",
+  "info": {
+    "displayName": "NewCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "iconImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}

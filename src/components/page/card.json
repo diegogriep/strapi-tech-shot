@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    }
+  }
+}
